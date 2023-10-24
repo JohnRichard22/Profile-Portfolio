@@ -1,0 +1,96 @@
+*,**{
+    margin: 0;
+    padding: 0;
+}
+  
+body{
+    background-color: #1E1E1E;
+    color: rgb(255, 255, 255)
+}
+
+nav{
+    display: flex;
+    position: absolute;
+}
+
+#logo{
+    font-family: 'Space Mono', monospace;
+    font-size: 38px;
+    margin:25px 0 0 115px;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    margin-left: 50rem;
+    margin-top: 45px;
+    cursor: pointer;
+}
+
+.nav-line{
+    display: none;
+}
+
+nav ul li{
+    display: flex;
+    list-style-type: none;
+    scale: 1.75;
+    margin-inline: 20px;
+}
+
+section{
+    display: flex;
+}
+
+.img{
+    position: absolute;
+    order:0;
+    z-index: -1;
+    margin-left: 52rem;
+    margin-top: 40px;
+}
+
+.box:hover{
+    transition: 0.3em; 
+    cursor: pointer;
+    scale: 1.1;
+} 
+ 
+.hero{
+    font-family: 'Space Mono';
+    margin-top: 9rem;
+    margin-left: 115px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+#fl{
+    border-bottom: solid rgba(191, 255, 96, 0.897);
+    border-bottom-width: 10px;
+}
+
+#sl{
+    border-bottom: solid rgba(191, 255, 96, 0.897);
+    border-bottom-width: 7px;
+}
+
+h4{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#sc{
+    margin-top:400px;
+    margin-left: 45rem;
+    position: absolute;
+    color: white;
+}
+
+#bc{
+    margin-top:80px;
+    position: absolute;
+    color: white;
+    scale: 1.5;
+}
